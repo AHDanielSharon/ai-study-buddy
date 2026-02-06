@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://router.huggingface.co/v1",
-    api_key=""
+    api_key="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"
 )
 st.set_page_config(
     page_title="AI Study Buddy",
