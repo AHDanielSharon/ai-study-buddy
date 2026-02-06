@@ -4,7 +4,7 @@ from openai import OpenAI
 # ---------------- AI CLIENT ----------------
 client = OpenAI(
     base_url="https://router.huggingface.co/v1",
-    api_key="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"
+    api_key="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"
 )
 
 # ---------------- PAGE CONFIG ----------------
@@ -128,3 +128,4 @@ Now respond appropriately.
 
         st.subheader("📘 Professor A H Daniel Sharon (MVJ College of Engineering)")
         st.write(ai_reply)
+
